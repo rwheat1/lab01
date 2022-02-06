@@ -1,6 +1,7 @@
 Lab 01 - Hello R
 ================
-Insert your name here
+Ryan W
+2/6/2022
 
 ## Load packages and data
 
