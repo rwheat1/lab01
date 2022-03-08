@@ -14,7 +14,7 @@ library(datasauRus)
 
 ### Exercise 1
 
-Here is my answer.
+datasaurus_dozen has: 1846 rows 3 columns
 
 ### Exercise 2
 
