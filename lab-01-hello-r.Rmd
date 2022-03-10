@@ -8,7 +8,7 @@ output: github_document
 ## Load packages and data
 
 ```{r load-packages, message=FALSE}
-library(tidyverse) 
+library(tidyverse)
 library(datasauRus)
 ```
 
@@ -16,7 +16,10 @@ library(datasauRus)
 
 ### Exercise 1
 
-Here is my answer.
+datasaurus_dozen has:
+1846 rows,
+3 variables,
+but I don't see anywhere in the help where it says the number of columns
 
 ### Exercise 2
 

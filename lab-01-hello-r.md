@@ -6,7 +6,7 @@ Ryan W
 ## Load packages and data
 
 ``` r
-library(tidyverse) 
+library(tidyverse)
 library(datasauRus)
 ```
 
@@ -14,7 +14,8 @@ library(datasauRus)
 
 ### Exercise 1
 
-datasaurus_dozen has: 1846 rows 3 columns
+datasaurus_dozen has: 1846 rows, 3 variables, but I don’t see anywhere
+in the help where it says the number of columns
 
 ### Exercise 2
 
