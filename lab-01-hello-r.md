@@ -17,7 +17,7 @@ library(datasauRus)
 datasaurus_dozen has: 1846 rows, 3 variables, but I don’t see anywhere
 in the help where it says the number of columns
 
-### Exercise 2
+### Exercise 2 – completed
 
 The answers for this exercise are given for you below. But you should
 clean up some of the narrative so that it only includes what you want to
