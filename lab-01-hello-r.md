@@ -77,6 +77,30 @@ Add code and narrative as needed. Note that two R chunks are given but
 they are not labeled. Use the convention from above to name them
 appropriately.
 
+``` r
+circle_data <- datasaurus_dozen %>%
+  filter(dataset == "circle")
+
+ggplot(data = circle_data, mapping = aes(x = x, y = y)) +
+  geom_point()
+```
+
+![](lab-01-hello-r_files/figure-gfm/plot-circle-1.png)<!-- -->
+
+``` r
+circle_data %>%
+  summarize(r = cor(x, y))
+```
+
+    ## # A tibble: 1 x 1
+    ##         r
+    ##     <dbl>
+    ## 1 -0.0683
+
+Again, this very close to the linear association for the dino dataset.
+Also, I feel like I was sold a false bag of goods because this plot sure
+looks like an oval – not a circle.
+
 ### Exercise 5
 
 Add code and narrative as needed.
